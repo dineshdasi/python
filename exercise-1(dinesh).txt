@@ -1,0 +1,64 @@
+'''
+name=input("name: ")
+print("hello ,"+ name)
+'''
+'''
+Input1=int(input('number1: '))
+Input2=int(input('number2: '))
+if(Input1+Input2>=0):
+  print("positive")
+else:
+  print("negative")
+'''
+'''
+number1= int(input("Enter number1: "))
+while(True):
+    number2=int(input("Enter number2: "))
+    if(number1==number2):
+      break
+print('correct')
+'''
+'''
+F_name=input('F_name: ')
+L_name=input('L_name: ')
+wholename=F_name+' '+L_name
+print(wholename)
+'''
+'''
+a=input('Enter the String: ')
+print(a.swapcase())
+'''
+'''
+a=[1,2,3,4]
+sum1=0
+mul1=1
+for x in a:
+    sum1=sum1+x
+    mul1=mul1*x
+print(sum1)
+print(mul1)
+'''
+'''
+a=['1','2','3','4','a','b','c','d']
+x=input("Enter any character: ")
+flag=False
+for z in a:
+  if(z==x):
+    flag=True
+print(flag)
+'''
+'''
+a=['1','2','3','4','a','b','c','d']
+b=['1','5','7','9','e','f','b','a','g']
+flag=False
+for x in a:
+  for y in b:
+    if(x==y):
+      flag=True
+print(flag)
+'''
+'''
+histogram_list=[4,9,10,1,3]
+for x in histogram_list:
+  print(x*"*")
+'''
